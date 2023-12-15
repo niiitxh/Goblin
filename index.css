@@ -147,6 +147,11 @@ section{
 .scroll-down i:hover{
     transform: translateY(-5px);
 }
+@media (width>=990px){
+    #menu-icon{
+        display:none;
+    }
+}
 
 @media (max-width: 1535px) {
     header{
