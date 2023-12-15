@@ -1,9 +1,9 @@
 let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
 
-menu.onClick = () => {
+menu.addEventListner('Click',() => {
     navlist.classList.toggle('open');
-};
+})
 
 const sr = ScrollReveal({
     distance: '65px',
